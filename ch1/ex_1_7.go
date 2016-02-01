@@ -17,7 +17,7 @@ func main() {
 		}
 		_, err = io.Copy(os.Stdout, resp.Body)
 		if err != nil {
-			fmt.Fprintf(os.Stderr, "fetch: errory copying from source to destination %s: %v\n", url, err)
+			fmt.Fprintf(os.Stderr, "fetch: error copying from source to destination %s: %v\n", url, err)
 			os.Exit(1)
 		}
 	}

@@ -1,4 +1,4 @@
-// Server1 is a minimal "echo" server
+// Server3 is a minimal "echo" web server
 package main
 
 import (

@@ -1,4 +1,4 @@
-// Server1 is a minimal "echo" server
+// lissajous_server is a minimal lissajous web server
 package main
 
 import (
